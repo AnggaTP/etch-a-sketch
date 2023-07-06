@@ -1,11 +1,21 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #59f8e8;
+}
 h1{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
 }
 .main-container{
     display: flex;
     justify-content: center;
     gap: 20px;
     color: rgb(0, 0, 0);
+    padding-bottom: 20px;
 }
 
 .button{
@@ -16,9 +26,32 @@ h1{
 
 button{
     padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
 }
 
 p{
     margin: 0;
     text-align: center;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btnBlue{
+    background-color: #20a4f3;
+}
+
+#btnYellow{
+    background-color: #c7ef00;
+}
+
+#btnBlack{
+    background-color: #332e3c;
+}
+
+#btnClear{
+    background-color: #332e3c;
 }
